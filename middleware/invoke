@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#
+# simtool
+#
+/usr/bin/invoke_app "$@" -t elasticitydft \
+                         -C "start_jupyter -T @tool -t elasticitydftExample.ipynb" \
+                         -u anaconda-X \
+                         -r none \
+                         -w headless
