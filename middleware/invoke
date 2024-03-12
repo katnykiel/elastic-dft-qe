@@ -3,8 +3,8 @@
 #
 # simtool
 #
-/usr/bin/invoke_app "$@" -t elasticitydft \
-                         -C "start_jupyter -T @tool -t elasticitydftExample.ipynb" \
+/usr/bin/invoke_app "$@" -t elasticdft \
+                         -C "start_jupyter -T @tool -t bin/workflow.ipynb" \
                          -u anaconda-7 \
                          -r none \
                          -w headless
